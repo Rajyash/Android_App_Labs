@@ -168,7 +168,7 @@ public class Player2 extends ActionBarActivity {
     }
     public void showDialog(){
         AlertDialog alertDialog = new AlertDialog.Builder(Player2.this).create();
-        alertDialog.setTitle("You Won!");
+        alertDialog.setTitle("Player2 Won!");
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {

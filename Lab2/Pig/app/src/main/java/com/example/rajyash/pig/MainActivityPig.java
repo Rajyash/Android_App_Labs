@@ -160,7 +160,7 @@ public class MainActivityPig extends ActionBarActivity {
 
     public void showDialog(){
         AlertDialog alertDialog = new AlertDialog.Builder(MainActivityPig.this).create();
-        alertDialog.setTitle("You Won!");
+        alertDialog.setTitle("Player1 Won!");
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
